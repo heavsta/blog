@@ -1,0 +1,71 @@
+.home {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.cards a {
+    color: #181A1B;
+    text-decoration: none;
+}
+
+.box {
+    padding: 4px;
+    width: 480px;
+    height: 600px;
+    transform: scale(1);
+    transition: transform 400ms;
+}
+
+.box:hover {
+    box-shadow: 10px 10px 5px 0px rgba(82,62,82,0.2);
+    transform: scale(1.05);
+}
+
+.box img {
+    width: 480px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.box h2 {
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.box p {
+    line-height: 1.4em;
+    letter-spacing: 0.5px;
+}
+
+.world {
+    color: burlywood;
+}
+
+.tech {
+    color: cornflowerblue;
+}
+
+.health {
+    color: green;
+}
+
+.art {
+    color: hotpink;
+}
+
+.date {
+    color: rgb(129, 123, 123);
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}

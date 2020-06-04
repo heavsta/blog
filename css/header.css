@@ -1,0 +1,62 @@
+.header {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #181A1B;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #181A1B;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 15px;
+}
+
+.navbar li i {
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    background-color: rgb(228, 222, 222);
+}
+
+.navbar #sub:hover {
+    background-color: rgb(181, 255, 255);
+}
+
+.navbar #search:hover {
+    background-color: #fff;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 2px;
+    background-color: #333;
+}

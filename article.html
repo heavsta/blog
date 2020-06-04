@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="shortcut icon" type="image/png" href="img/feather.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" title="Home"><h1>thoughts of a human being</h1></a>
+        <hr>
+        <nav class="navbar">
+            <ul>
+                <a href="#"><li>World</li></a>
+                <a href="#"><li>Health</li></a>
+                <a href="#"><li>Technology</li></a>
+                <a href="#"><li>Art</li></a>
+                <a href="#"><li id="sub">Subscribe!</li></a>
+                <li id="search"><input type="text" placeholder="Search..">&nbsp;&nbsp;<i class="fas fa-search"></i></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <section class="main">
+        <article class="article">
+            <h1>A Sample Blog Post</h1>
+            <p class="legend">May 03, 2020 by <a href="#">Harry</a></p>
+            <img src="img/example.jpg" alt="example of pic">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate at esse tempora corporis optio.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod consequatur quos nulla sit aspernatur unde ut, suscipit sint quae recusandae, pariatur, quibusdam molestias consequuntur iusto neque modi molestiae esse qui. <strong>Molestiae aliquam facere magnam et.</strong> Voluptatum inventore nesciunt magnam explicabo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quam nihil porro expedita nemo minima totam perferendis, ex ea in perspiciatis consequatur magnam exercitationem illum, soluta obcaecati doloribus iste nam.</p>
+            <h2>Heading</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo provident eum ab odit labore, sint obcaecati pariatur praesentium laudantium, exercitationem odio, consequuntur quod distinctio quia?</p>
+            <h3>Sub-heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, reiciendis:</p>
+            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel voluptate laudantium nam molestias nihil rem?</blockquote>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, laudantium enim fuga est voluptas eaque minima aliquid repellat, quo ullam temporibus sit reprehenderit deserunt. Ipsa adipisci minima in error est?</p>
+            <div class="code">
+                <code>
+                    $(document).ready(function(){ <br>
+                    &nbsp;&nbsp;&nbsp;var screenWidth = $(window).width(); <br>
+                    &nbsp;&nbsp;&nbsp;if (screenWidth < 800){ <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('video').removeAttr('autoplay'); <br>
+                    &nbsp;&nbsp;&nbsp;} else { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('video').attr('autoplay'); <br>
+                    &nbsp;&nbsp;&nbsp;} <br>
+                    });
+                </code>
+            </div>
+            <h3>Sub-heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, enim atque dolor iusto eveniet assumenda?</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis incidunt omnis quas!</p>
+            <ol>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
+            </ol>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, architecto.</p>
+        </article>
+        <div class="right">
+            <aside id="about">
+                <div class="profile">
+                    <img src="img/harry.jpeg" alt="author's profile picture">
+                    <h1>About Harry</h1>
+                </div>
+                <p>Harry James Potter (b. 31 July 1980) is an English half-blood wizard, and one of the most famous wizards of modern times.</p>
+            </aside>
+            <aside id="archives">
+                <h1>From the same author:</h1>
+                <a href="#"><p>March 2017</p></a>
+                <a href="#"><p>November 2017</p></a>
+                <a href="#"><p>February 2018</p></a>
+                <a href="#"><p>August 2019</p></a>
+                <a href="#"><p>September 2019</p></a>
+            </aside>
+            <aside id="findme">
+                <h1>Find me on:</h1>
+                <a href="#"><p><i class="fab fa-github"></i>&nbsp;Github</p></a>
+                <a href="#"><p><i class="fab fa-twitter"></i>&nbsp;Twitter</p></a>
+                <a href="#"><p><i class="fab fa-facebook-f" style="padding-left: 3px; padding-right: 4px;"></i>&nbsp;Facebook</p></a>
+            </aside>
+        </div>
+    </section>
+    <div class="buttons">
+        <button class="on">Older Post</button>
+        <button class="off" title="No newer posts">Newer Post</button>
+    </div>
+    <footer class="footer">
+        <p>Copyright 2020 ©</p>
+        <div>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <p>All Rights Reserved</p>
+    </footer>
+</body>
+</html>

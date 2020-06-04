@@ -1,0 +1,151 @@
+.main {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/** ARTICLE PART **/
+
+.article h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.article h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.article h2 {
+    font-size: 2em;
+}
+
+.article h3 {
+    font-size: 1.5em;
+}
+
+.legend {
+    color: rgb(129, 123, 123);
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.article img {
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+}
+
+blockquote::before {
+    content: open-quote;
+}
+
+blockquote::after {
+    content: close-quote;
+}
+
+blockquote {
+    quotes: "“" "”" "‘" "’";
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+.code {
+    background-color: #EFF0F1;
+}
+
+
+/** ASIDE PART **/
+
+aside {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+aside h1 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+#about {
+    background-color: #F8F9FA;
+    padding: 10px;
+}
+
+#about h1 {
+    font-style: normal;
+}
+
+#about img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 250297px;
+    margin-right: 5px;
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#archives p {
+    margin: 5px;
+}
+
+#findme {
+    width: 140px;
+}
+
+#findme p {
+    margin-bottom: 10px;
+    transition: transform 300ms;
+}
+
+#findme a {
+    color: #181A1B;
+    text-decoration: none;
+}
+
+#findme p:hover {
+    transform: scale(1.10) translateX(3%);
+}
+
+/** BUTTONS **/
+
+.buttons {
+    width: 1000px;
+    margin: auto;
+}
+
+button {
+    border: none;
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 250297px;
+    margin-top: 20px;
+    margin-right: 5px;
+    outline: none;
+}
+
+.on {
+    color: #24B1ED;
+    border: 1px solid #24B1ED;
+    cursor: pointer;
+}
+
+.on:hover {
+    color: #fff;
+    background-color: #24B1ED;
+}
+
+.off {
+    color: rgba(129, 123, 123, 0.5);
+    border: 1px solid rgb(129, 123, 123, 0.5);
+}
