@@ -24,3 +24,14 @@
 .footer i {
     padding: 5px;
 }
+
+/** MEDIA QUERIES **/
+
+@media all and (max-width: 1000px) {
+    .footer {
+        width: 95%;
+        margin: auto;
+        font-size: 0.7em;
+        margin-left: 0;
+    }
+}
